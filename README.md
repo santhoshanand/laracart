@@ -6,7 +6,7 @@ Using this package you can access your OpenCart database tables inside Laravel.
 ## Installation
 
 ```
-composer require exfriend/laracart
+composer require santhoshanand/laracart
 ```
 
 Update your .env file (affects only Laracart):
@@ -18,7 +18,7 @@ DB_PREFIX=oc_
 ## Usage
 
 ```
-use \Exfriend\Laracart\Models\Manufacturer;
+use \santhoshanand\Laracart\Models\Manufacturer;
 
 $manufacturer = Manufacturer::create([
    'name' => 'Canon',
